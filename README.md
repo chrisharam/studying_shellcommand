@@ -7,7 +7,7 @@ studying shell command!
 - '<' : redirects input from a file.
 - you can mix "<", ">" together in a single line!
 - '|' : the output of previous command becomes input of next command
-- '\' : ignore line change in command(you can also use enter key)
+- 'backslash' : ignore line change in command(you can also use enter key)
 
 -------------------------
 
@@ -30,8 +30,10 @@ $ history :  see previous command history.
 linux is a multi-user system.  
 Files and directories have a permission assinged differently to owner/group/others.  
 
-example:  
--rwx rwx rwx  (r: read w: write x: execute)  
+when given like this example, ***-rwx rwx rwx***,  
+r: read  
+w: write  
+x: execute  
 -: indicates regular file  
 d: indicates directory  
 

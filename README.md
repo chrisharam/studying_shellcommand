@@ -2,12 +2,12 @@
 studying shell command!
 
 ## function keys
-- ">" : redirects output using this function after a command to create and save the output in a file
-- ">>" : appends output to an extising file(if it already extists), or create and write to a new file(if it doesn't exist).
-- "<" : redirects input from a file.
+- > : redirects output using this function after a command to create and save the output in a file
+- >> : appends output to an extising file(if it already extists), or create and write to a new file(if it doesn't exist).
+- < : redirects input from a file.
 - you can mix "<", ">" together in a single line!
-- "|" : the output of previous command becomes input of next command
-- "\" : ignore line change in command(you can also use enter key)
+- | : the output of previous command becomes input of next command
+- \ : ignore line change in command(you can also use enter key)
 
 -------------------------
 
@@ -30,14 +30,15 @@ $ history :  see previous command history.
 linux is a multi-user system.  
 Files and directories have a permission assinged differently to owner/group/others.  
 
-==> example
+==> example  
 -rwx rwx rwx  (r: read w: write x: execute)  
 -: indicates regular file  
 d: indicates directory  
 
 ------------------------------
 
-## change permissions
+## change permissions  
+
 changing permissions uses binary numbers to write easier.  
 which is,  
 rwx rwx rwx = 111 111 111  
@@ -50,6 +51,7 @@ rw- = 110 in binary = 6
 r-x = 101 in binary = 5  
 r-- = 100 in binary = 4  
 
+    
 And here is a simple examples
  - 777: rwxrwxrwx
  - 755: rwxr-xr-x

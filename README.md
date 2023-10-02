@@ -2,12 +2,12 @@
 studying shell command!
 
 ## function keys
-- > : redirects output using this function after a command to create and save the output in a file
-- >> : appends output to an extising file(if it already extists), or create and write to a new file(if it doesn't exist).
-- < : redirects input from a file.
+- '>' : redirects output using this function after a command to create and save the output in a file
+- '>>' : appends output to an extising file(if it already extists), or create and write to a new file(if it doesn't exist).
+- '<' : redirects input from a file.
 - you can mix "<", ">" together in a single line!
-- | : the output of previous command becomes input of next command
-- \ : ignore line change in command(you can also use enter key)
+- '|' : the output of previous command becomes input of next command
+- '\' : ignore line change in command(you can also use enter key)
 
 -------------------------
 
@@ -30,7 +30,7 @@ $ history :  see previous command history.
 linux is a multi-user system.  
 Files and directories have a permission assinged differently to owner/group/others.  
 
-==> example  
+example:  
 -rwx rwx rwx  (r: read w: write x: execute)  
 -: indicates regular file  
 d: indicates directory  

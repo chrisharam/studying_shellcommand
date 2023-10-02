@@ -65,7 +65,8 @@ And here is a simple examples
 ## Superuser
 A superuser has all system administation authority.  
 Some commands need superuser's privilleges.  
-Put "sudo" before the command if you are a superuser.  
+Put "sudo" before the command if you are a superuser.    
+
 ***Warning!! "sudo -i" means you will command as a superuser always. so it can be dangerous sometimes!***
 
 ------------------
